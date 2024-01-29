@@ -1,0 +1,46 @@
+/* --Multi-Page Classes-- */
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: lightgray;
+    padding: 10px;
+    margin: 0vh 45%;
+    border: 1px solid black;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: lightgray;
+    padding: 10px;
+    margin: 100vh 0 0 0;
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.inputerAnswer {
+    display: flex;
+    justify-content: center;
+}
+
+/* --Landing Page-- */
+.logoJeopardy {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+.btnPlayBet {
+    display: flex;
+    justify-content: center;
+}
+
+
