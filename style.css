@@ -4,7 +4,7 @@
     justify-content: center;
 }
 
-.button {
+/*.button {
     background-color: lightgray;
     padding: 10px;
     margin: 0vh 45%;
@@ -12,23 +12,69 @@
     border-radius: 4px;
 
     display: flex;
-    justify-content: center;
-}
+    justify-content: space-around;
+}*/
 
 .footer {
     background-color: lightgray;
     padding: 10px;
-    margin: 100vh 0 0 0;
+    margin: 0 0 0 0;
     border: 1px solid black;
 
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    
+    /* position: fixed;
+    bottom: 0; */
 }
 
 .inputerAnswer {
     display: flex;
     justify-content: center;
+}
+
+.main {
+    display: grid;
+    /*grid-template-areas:
+        "category1  category2   category3   category4   category5   category6"
+        "oneOne     oneTwo      oneThree    oneFour     oneFive     oneSix"
+        "twoOne     twoTwo      twoThree    twoFour     twoFive     twoSix"
+        "threeOne   threeTwo    threeThree  threeFour   threeFive   threeSix"
+        "fourOne    fourTwo     fourThree   fourFour    fourFive    fourSix"
+        "fiveOne    fiveTwo     fiveThree   fiveFour    fiveFive    fiveSix";*/
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.gameBtn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.nxtRnd {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+}
+
+.categoryBlock {
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.block {
+    border: 1px solid black;
+    text-align: center;
 }
 
 /* --Landing Page-- */
