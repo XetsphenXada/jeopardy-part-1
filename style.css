@@ -89,4 +89,9 @@
     justify-content: center;
 }
 
-
+/* --Final Round-- */
+.finalQuestion {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
