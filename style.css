@@ -4,16 +4,10 @@
     justify-content: center;
 }
 
-/*.button {
-    background-color: lightgray;
-    padding: 10px;
-    margin: 0vh 45%;
-    border: 1px solid black;
-    border-radius: 4px;
-
-    display: flex;
-    justify-content: space-around;
-}*/
+button {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 .footer {
     background-color: lightgray;
@@ -29,8 +23,8 @@
 }
 
 .inputerAnswer {
-    display: flex;
-    justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr;
 }
 
 .main {
@@ -90,8 +84,30 @@
 }
 
 /* --Final Round-- */
-.finalQuestion {
+.mainFinal {
     display: grid;
     grid-template-columns: 1fr;
-    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 25px;
+}
+
+.finalCategory {
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.finalBlock {
+    border: 1px solid black;
+    text-align: center;
+    padding: 100px;
+}
+
+.playerInputs {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 10px;
 }
